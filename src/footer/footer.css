@@ -1,0 +1,10 @@
+.f{
+width: 100%;
+left: 0;
+bottom: 0;
+position: fixed;
+}
+.f1{
+    padding: 2px;
+    padding-left: 20px ;
+}
