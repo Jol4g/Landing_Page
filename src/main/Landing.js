@@ -5,8 +5,10 @@ class Landing extends React.Component{
         return(<div>
           
             <div  className="card">
-                <h1>Landing</h1>
-                <p>Hello There Welcome to My page i'm Leraning React JS</p>
+                <h1>Marhbe bik</h1>
+                <p>Hello There <br/>Welcome to my page i'm Learning React JS this is portfolio Like
+                <br/>Check Links above
+                </p>
 
                 </div>
             </div>

@@ -9,7 +9,7 @@ class Navbar extends React.Component{
         return(
          <div style={{height: '100px', position: 'fixed' ,top:'0',left:'0',width:'100%'}} >
         <Layout>
-            <Header transparent title="JOL4G" style={{color: 'white'}}>
+            <Header transparent title="JOL4G" style={{color: 'white' }}>
                 <Navigation>
                 <Switch  ripple id="switch1"  defaultChecked></Switch>
                     <Link to="/" >Home</Link>
