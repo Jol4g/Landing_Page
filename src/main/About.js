@@ -17,7 +17,7 @@ class About extends React.Component{
                 <div className="card2">
                 <div className="card3">
                 <h1>Projects</h1> 
-                <h4>Advice App:</h4><p> a Web App thats tell you Random adevices</p>
+                <h4>Advice App:</h4><p> a Web App thats tell you Random advices</p>
                 <h4>Landinng Page:</h4><p> a Web Portfolio created with React JS Library</p>
                 <h4>Unknwon:</h4><p>Comming Soon!</p>
                 </div>
