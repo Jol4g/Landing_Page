@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding:0;
+
+}
+.card{ 
+
+    background: azure;
+    width: 1000px;
+    height: 300px;
+    box-shadow: 0px 10px 20px 0px #000 ;
+   
+}
+.mdl-layout__content{
+    top:100px;
+    height: 500px;
+    width: 1200px;
+    
+}

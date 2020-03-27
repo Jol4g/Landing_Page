@@ -4,13 +4,17 @@ import Navbar from './navbar/navbar'
 import Foooter from './footer/footer'
 import{Content} from 'react-mdl'
 class App extends React.Component{
-    render(){
+  
+
+  render(){
          return(
               <>
      <Navbar/>
-     <Content><Main/></Content>
+     <Content >
+         <Main />
+     </Content>
      <Foooter/>
-            </>  
+      </>  
             )
     }}
 export default App;
