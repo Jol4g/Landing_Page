@@ -39,3 +39,23 @@ display: flex;
     font-size: 15em;
 }
 
+.dot{
+    margin: 1em;
+    height: .9em;
+    width: .9em;
+    background-color: yellow;
+
+}
+
+.btn-contact-me{
+    color: yellow;
+    padding: .2em;
+    text-decoration-line: none;
+    text-transform: uppercase;
+
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
