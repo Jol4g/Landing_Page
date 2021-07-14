@@ -1,0 +1,41 @@
+.page-one {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    padding: 0 10vw 0 10vw;
+    height: 85vh;
+    justify-content: center;
+    flex-direction: column;
+display: flex;
+}
+
+.pre-post {
+    color: #494949;
+    font-size: 3em;
+    font-weight: bold;
+}
+.post {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 5em;
+}
+
+.js-brand{
+    color:#000000;
+    background-color: yellow;
+    padding: .1em;
+}
+.text-background {
+    z-index: -1;
+    position: absolute;
+    align-items: center;
+    left: -.1em;
+    transform: rotate(-15deg);
+    -webkit-text-stroke: 1px #2e2e2e;
+    color: transparent;
+    text-transform: uppercase;
+    font-size: 15em;
+}
+
