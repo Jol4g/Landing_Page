@@ -1,0 +1,24 @@
+.navbar {
+ height: 10vh;
+ width: 100vw;
+ flex-direction: row;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.link {
+
+}
+
+.link-item {
+ color: #fefefe;
+ padding: 10px;
+ margin: 10px;
+ text-decoration-line: none;
+ text-transform: uppercase;
+}
+
+.link-item:hover {
+ color: #f26b4e;
+}
+

@@ -1,20 +1,11 @@
 import React from 'react'
-import Main from './main/main'
-import Navbar from './navbar/navbar'
-import Foooter from './footer/footer'
-import{Content} from 'react-mdl'
-class App extends React.Component{
-  
+import Main from './pages/index'
+import './App.css'
 
-  render(){
-         return(
-              <>
-     <Navbar/>
-     <Content >
-         <Main />
-     </Content>
-     <Foooter/>
-      </>  
-            )
-    }}
+const App = () => {
+    return (
+        <Main/>
+    )
+}
+
 export default App;
