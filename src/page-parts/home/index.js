@@ -19,7 +19,7 @@ export default () => {
                     <div className={'post'}>DEVELOPER </div><div className={'dot'}/>
                 </div>
                 <span className={'text-background'}>developer</span>
-                <a className={'btn-contact-me'} href={'#contact'}>Contact me</a>
+                <a className={'btn-contact-me'} href={'#about-me'}>Contact me</a>
             </div>
         </div>
     )
