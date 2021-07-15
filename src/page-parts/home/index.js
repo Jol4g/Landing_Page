@@ -5,7 +5,7 @@ export default () => {
     return (
         <div id={'home'} className={'page-one'}>
             <Navbar/>
-            <div className={'container'}>
+            <div className={'container-home'}>
                 <span className={'pre-post'}>I'm a</span>
                 <br/>
                 <span className={'post'}>FULLSTACK <span className={'js-brand'}>JS</span></span>

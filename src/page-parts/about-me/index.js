@@ -24,14 +24,13 @@ export default () => {
                                 flexDirection:'row',
                                 justifyContent:'space-between',}}
                         >
-
                         <div
                                 style={{
                                     display:'flex',
                                     flexDirection:'column',
                                     justifyContent:'space-between',
                                     alignItems:'center',
-                                    padding:'0 30px'}}>
+                                    padding:'30px'}}>
                         {[{sub:'Name',value:'Fedi Sarray'},{sub:'Country',value:'Tunisia'}]
                             .map(
                                 (obj)=><div style={{alignItems:'center'}} className={'column center'}>

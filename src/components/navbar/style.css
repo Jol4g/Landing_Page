@@ -17,8 +17,9 @@
  text-decoration-line: none;
  text-transform: uppercase;
 }
+/* color: #f26b4e;*/
 
 .link-item:hover {
- color: #f26b4e;
+color: gold;
 }
 
