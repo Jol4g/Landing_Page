@@ -1,10 +1,10 @@
 import React from "react";
 import {SocialMedia, Spacer, Title} from "../../components";
 import './style.css'
-
+import MyIMG from '../../assets/images/myphoto.jpeg'
 export default () => {
 
-    const MyIMG ="https://images.pexels.com/photos/5333094/pexels-photo-5333094.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+    //const MyIMG ="https://images.pexels.com/photos/5333094/pexels-photo-5333094.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
     return (
         <div id={'about-me'} className={'about-me'}>
             <div className={'container-darker'}>
@@ -12,7 +12,7 @@ export default () => {
                 <div className={'row center'} >
                     <div style={{position:'relative'}}>
                         <div className={'rectangle'}/>
-                        <img alt={'me'} title={'Fedi Sarray'} className={'photo'} src={MyIMG}/>
+                        <img alt={'me'} title={'Fedi Sarray'}  className={'photo'} src={MyIMG}/>
                     </div>
                     <div className={'section'}>
                         <p className={'white text text-2'}>My name is <span className={'yellow'}>Fedi Sarray</span></p>
@@ -56,7 +56,11 @@ export default () => {
                     </div>
                         <div className={'education'}>
                             <span className={'subtitle'}>Education</span>
-                            <span className={'white text-3 text-center'}>JavaScript developer is responsible for completing the design of applications and software using Java programming language. JavaScript developers work with websites,</span>
+                            <span className={'white text-3 text-center'}>
+                                Basic Bachelor of Computer Science {<br/>}
+                                in Faculty of Sciences of Monastir,
+                                Monastir University.
+                            </span>
                         </div>
                         <div style={{display:'flex',justifyContent:'center',alignItems:"center",margin:10,width:'100%'}}>
                             <SocialMedia/>

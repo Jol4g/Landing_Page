@@ -1,0 +1,27 @@
+.hover {
+    transition: .2s ease-in-out ;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.layout{
+    transition: .2s ease-in-out ;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: .3;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+.layout:hover{
+    opacity: 0;
+}
+.hover:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+

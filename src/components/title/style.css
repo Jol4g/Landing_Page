@@ -13,8 +13,10 @@
     z-index: 0;
     color: #2e2e2e;
     font-weight: bold;
-}
+    }
 .title{
+    font-family: 'Roboto', sans-serif;
+
     text-transform: capitalize;
     z-index: 1;
     color: gold;

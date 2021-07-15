@@ -24,7 +24,7 @@
 
 .js-brand{
     color:#000000;
-    background-color: yellow;
+    background-color: gold;
     padding: .1em;
 }
 .text-background {
@@ -43,12 +43,12 @@
     margin: 1em;
     height: .9em;
     width: .9em;
-    background-color: yellow;
+    background-color: gold;
 
 }
 
 .btn-contact-me{
-    color: yellow;
+    color: gold;
     padding: .2em;
     text-decoration-line: none;
     text-transform: uppercase;

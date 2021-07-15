@@ -20,7 +20,8 @@
     z-index: 2;
     position: relative;
     border-radius: 5px;
-
+    image-rendering: high-quality;
+    object-fit: cover;
 }
 .rectangle{
     position: absolute;
@@ -52,6 +53,8 @@
     color: gold;
 }
 .text{
+    font-family: 'Roboto', sans-serif;
+
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
@@ -61,13 +64,18 @@
     flex-direction: column;
 }
 .subtitle{
+    font-family: 'Roboto', sans-serif;
+
     text-transform: capitalize;
     color: gold;
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 20px;
 }
 .text-2{
     width: 100%;
     font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+
 }
 .text-center{
     text-align: center;
@@ -80,8 +88,10 @@
 }
 
 .text-3{
-    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 16px;
     font-weight: 500;
-    line-height: 18px;
     width: 80%;
+    line-height: 20px;
 }
