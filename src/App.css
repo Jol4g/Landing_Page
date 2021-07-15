@@ -18,7 +18,6 @@ html {scrollbar-face-color: #ffbb43; scrollbar-shadow-color: #8ea5b5; scrollbar-
 /* Only FireFox */
 html {
     scrollbar-color: #ffbb43 #f1f1f1;
-    font-family:Bahnschrift, 'Cairo',  !important;
 }
 /*chrome*/
 ::-webkit-scrollbar {
