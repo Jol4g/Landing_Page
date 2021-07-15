@@ -15,9 +15,9 @@ export default () => {
                         <img alt={'me'} title={'Fedi Sarray'}  className={'photo'} src={MyIMG}/>
                     </div>
                     <div className={'section'}>
-                        <p className={'white text text-2'}>My name is <span className={'yellow'}>Fedi Sarray</span></p>
+                        <p className={'white text text-2'}>My name is <span className={'gold'}>Fedi Sarray</span></p>
                         <p className={'white text'}>
-                            I graduated from faculty of sciences of Monastir; since 2021; with computer science degree {<br/>}
+                            I graduated from faculty of sciences of Monastir;with a computer science degree.{<br/>}
                             At this time, I self learn in front-end and have a firm knowledge of HTML,
                             CSS, JavaScript and <b>React JS <span role={'img'}  aria-label={"react"}>⚛️</span></b>as library. {<br/>}
                             and interested in <b>mobile</b> development with<b> React Native <span role={'img'} aria-label={"react"}>⚛</span></b>
