@@ -44,7 +44,7 @@ export default () => {
                             flexDirection:'column',
                             justifyContent:'space-between',
                             alignItems:'center',
-                            padding:'0 30px'}}>
+                            padding:'30px'}}>
                         {[{sub:'Phone',value:'+21650264852'},{sub:'Email',value:'fedisarray@gmail.com'}]
                             .map(
                                 (obj)=><div  style={{alignItems:'center'}} className={'column center'}>

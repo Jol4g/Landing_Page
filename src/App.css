@@ -10,3 +10,34 @@ body{
     width: 100vw;
     overflow-x: hidden;
 }
+
+/*IE */
+html {scrollbar-face-color: #ffbb43; scrollbar-shadow-color: #8ea5b5; scrollbar-highlight-color: #f1f1f1;}
+/* Only FireFox */
+html {
+    scrollbar-color: #ffbb43 #f1f1f1;
+    font-family:Bahnschrift, 'Cairo',  !important;
+}
+/*chrome*/
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #333;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: gold;
+    border-radius: 50px;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #faa816;
+}

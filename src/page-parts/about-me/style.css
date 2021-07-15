@@ -6,6 +6,7 @@
 }
 .container-darker {
     height: 100vh;
+    padding: 0 10vw 0 10vw;
     background-color: #1f1f1f;
     flex-direction: column;
     display: flex;
