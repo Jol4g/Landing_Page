@@ -1,11 +1,10 @@
 .about-me{
-    height: 100vh;
     width: 100vw;
     background-color: #1f1f1f;
+    position: relative;
 
 }
 .container-darker {
-    height: 100vh;
     padding: 0 10vw 0 10vw;
     background-color: #1f1f1f;
     flex-direction: column;
@@ -39,7 +38,7 @@
 .section{
     position: relative;
     padding:  0 0 0 50px ;
-    width: 50%;
+    width: 60%;
 }
 
 .center {
@@ -55,7 +54,7 @@
 .text{
     font-family: 'Roboto', sans-serif;
 
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 20px;
 }
@@ -65,11 +64,9 @@
 }
 .subtitle{
     font-family: 'Roboto', sans-serif;
-
     text-transform: capitalize;
     color: gold;
     font-size: 14px;
-    line-height: 20px;
 }
 .text-2{
     width: 100%;

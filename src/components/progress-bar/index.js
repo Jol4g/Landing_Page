@@ -15,7 +15,9 @@ export default ({title,percent}) => {
 
                 })
         }
-    },[])
+    },
+    // eslint-disable-next-line
+     [])
     return (
         <div style={{padding:10,width:'40%',}}>
             <div style={{display:"flex",flexDirection:'row',width:'100%',justifyContent:'space-between'}}>
